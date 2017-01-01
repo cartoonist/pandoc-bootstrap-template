@@ -39,6 +39,9 @@ $endfor$
     <div class="navbar-inner">
       <div class="container">
         <span class="doc-title">$title$</span>
+        $if(subtitle)$
+        <span class="doc-subtitle">$subtitle$</span>
+        $endif$
         <ul class="nav pull-right doc-info">
           $for(author)$
           <li><p class="navbar-text">$author$</p></li>
