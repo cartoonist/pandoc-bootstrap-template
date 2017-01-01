@@ -864,8 +864,14 @@ pre code {
 table {
   max-width: 100%;
   background-color: transparent;
-  border-collapse: collapse;
+  border-collapse: separate;
+  *border-collapse: collapse;
   border-spacing: 0;
+  border-left: 0;
+  border: 1px solid #dddddd;
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  border-radius: 4px;
 }
 table {
   width: 100%;
@@ -878,6 +884,7 @@ table td {
   text-align: left;
   vertical-align: top;
   border-top: 1px solid #dddddd;
+  border-left: 1px solid #dddddd;
 }
 table th {
   font-weight: bold;
