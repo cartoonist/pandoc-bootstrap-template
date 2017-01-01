@@ -688,6 +688,8 @@ ul ol,
 ol ol,
 ol ul {
   margin-bottom: 0;
+  margin-left: 10px !important;
+  font-size: 12px;
 }
 li {
   line-height: 20px;
